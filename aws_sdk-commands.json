@@ -1,0 +1,21 @@
+
+   yum install httpd
+    3  sudo curl -O https://getcomposer.org/composer.phar
+    4  ls
+    5  sudo chmod +x composer
+    6  cd /var/www/html/
+    7  sudo curl -O https://getcomposer.org/composer.phar
+    8  curl -sS https://getcomposer.org/installer
+    9   curl -sS https://getcomposer.org/installer > installer.php
+   10   curl -sS https://getcomposer.org/installer | php
+   11  yum install php
+   12   php -d memory_limit=-1 composer.phar require aws/aws-sdk-php
+   13  sudo curl -O https://getcomposer.org/composer.phar
+   14   php installer.php
+   15   php composer.phar
+   16  ls
+   17  history
+   18  ls
+   19  vi composer.phar
+   
+   
