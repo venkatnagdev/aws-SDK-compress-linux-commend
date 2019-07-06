@@ -1,4 +1,6 @@
+
 https://www.youtube.com/watch?v=sLtf7Sx8lsQ
+https://docs.aws.amazon.com/cli/latest/userguide/aws-cli.pdf
 AWS CLI
 
 ssh -i 'locactionkey.pem' Ec2url
