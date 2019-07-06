@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=sLtf7Sx8lsQ
+AWS CLI
+
+ssh -i 'locactionkey.pem' Ec2url
+ 
+aws ec2 describe-regions    (json Format)
+aws ec2 describe-regions --output text   (text Format)
+aws ec2 describe-regions --output table  (table format)
+
+aws iam create-group --group-name mygroup  (Create group)
+aws iam create-user --user-name my user   (Create user)
+aws iam add-user-to-group --user-name myuser --group-name mygroup (user add group)
+aws iam get-group --group-name mygroup     (check group)
+cat mypolicy
+aws iam put-user-policy --user-name myuser --policy-name mypoweruserRole --policy-document file://mypolicy.json
+aws iam list-user-policies --user-name myuser  (list of user policies)
+aws iam create-login-profile --user-name myuser --password venkat@123  ((Assgine user name and password)
+
+
+AWS ec2 describe-instance  (aws ec2 impermaction)
+aws ec2 Create-key-pair --key-name MyNewKey --query 'keymaterial' --output test > MyNweKey.pem
+aws ec2 create-security-group --group-name MyGroup  --description "Security Group for my instance"
+aws ec2 authorize-security-group- ingress --group-name Mygroup --protocol tcp --port 3389 --cidr 106.225.55.55/32
+
+ Create Ec2 instance
+aws ec2 run-instances --image-id ami-026c8acd92718196b --Count 1 --instance-type t2.micro --key-name pepptytest --security-group launch-wizard-16
+
+Create S3
+aws s3 mb s3://mybucket
+
+aws s3 cp "c:\user\desktop\image.jpg" s3://bucketname
+
+
+
+
+
+
+
+
+
+
+ 
